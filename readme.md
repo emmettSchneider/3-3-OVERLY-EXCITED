@@ -1,3 +1,7 @@
+The practice excercises completed in this repo are shown below. I address each exercise in order, using the same function variable: "addExcitement". However, rather than alter the original function, I overwrite the original function variable with each iteration of the exercise. Therefore, the results of each practice exercise still print to the console. 
+
+-Emmett
+
 # Practice: Overly Excited
 For this exercise, you need to create a single JavaScript function named addExcitement that will use console.log() to print out a sentence to the browser console.
 
