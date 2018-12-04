@@ -32,3 +32,26 @@ addExcitement = function(theWordArray) {
 // Invoke the function and pass in the array
 addExcitement(sentence);
 
+addExcitement = function(theWordArray) {
+    let buildMeUp = "";
+
+    for (let i = 0; i < theWordArray.length; i++) {
+        
+    // If the current value of `i` divided by 3 has no remainder, add an exclamation point to the end of the word and then concatenate it to `buildMeUp`.}
+    if (i % 3 === 0) {
+        buildMeUp += (`${sentence[i]}! `);
+    }
+
+    // Otherwise, just concatenate the word itself.
+        
+    else {
+        buildMeUp += (`${sentence[i]} `);
+    }
+
+    // Print buildMeUp to the console
+    console.log(buildMeUp);
+    }
+}
+
+addExcitement(sentence);
+
